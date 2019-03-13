@@ -12,6 +12,7 @@ django = "*"
 scrapy = "*"
 scrapy-djangoitem = "*"
 djangorestframework = "*"
+uwsgi = "*"
 
 [requires]
 python_version = "3.6"

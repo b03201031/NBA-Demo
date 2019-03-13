@@ -15,8 +15,8 @@
                 news.attr('id', value['id']);
                 news.find('a').attr('href', value['id']);
                 news.find('a figure  img').attr('src', value['img_url']);
-                news.find('.title  span').text(value['title']);
-                news.find('.published  span').text(value['published']);
+                news.find('.title  span').text("Title: " + value['title']);
+                news.find('.published  span').text("Published Time: " + value['published']);
                 
                 // To prserver the order
                 $('#news-list .news').last().after(news);
