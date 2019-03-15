@@ -14,7 +14,7 @@ import sys
 import os
 
 sys.path.append(os.path.dirname(os.path.abspath('..')))
-os.environ['DJANGO_SETTINGS_MODULE'] = 'NBA.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'NBA.settings.pro'
 
 import django
 django.setup()

@@ -6,13 +6,9 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+django = "*"
 beautifulsoup4 = "*"
 requests = "*"
-django = "*"
-scrapy = "*"
-scrapy-djangoitem = "*"
-djangorestframework = "*"
-uwsgi = "*"
 
 [requires]
 python_version = "3.6"
